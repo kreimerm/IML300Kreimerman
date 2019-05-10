@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Permanent+Marker|Righteous|Shrikhand|Special+Elite|Srisakdi" rel="stylesheet">
+    <title>pg7</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="pg3.css">
+  </head>
+  <body>
+
+<div class="first" id="prompt">
+  <h1>Wow, wow, wow! Why so nonchalant? The other dinner guests turn towards you and begin to ask questions.
+  You claim your innocence, but there is tension in the room. How will you show your innocence?</h1>
+</div>
+
+<div class="opt1" id="opt1">
+<a href="pg4.html"> <h2>I should check on Marina.</h2></a>
+</div>
+
+
+<div class="opt2" id="opt2">
+<a href="pg9.html"> <h2>Point the finger towards someone else.</h2></a>
+</div>
+
+<div class="lowernumber" id="number">
+  <a href="page1.html"><h3>7</h3>
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+  // put javascript code here
+  $('#prompt').hide().fadeIn(1500);
+  $('#opt1').hide().slideDown(2000);
+  $('#opt2').hide().slideDown(2000);
+  $('#number').hide().slideDown(2000);
+});
+
+</script>
+
+
+  </body>
+</html>

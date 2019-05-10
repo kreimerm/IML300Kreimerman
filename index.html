@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Intro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="f0.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway|Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Boogaloo|Monoton|Rancho|Schoolbell" rel="stylesheet">
+
+  <body>
+
+    <div class="title" id="title">
+      <img id="hand1" src="images/redhand.png" alt="" class="hand2" >
+      <img id="hand2" src="images/bluehand.png" alt="" class="hand3">
+      <img id="hand3" src="images/redhand.png" alt="" class="hand2" >
+      <img id="hand4" src="images/bluehand.png" alt="" class="hand3">
+      <img id="hand5" src="images/redhand.png" alt="" class="hand2" >
+      <img id="hand6" src="images/bluehand.png" alt="" class="hand3">
+      <img id="hand7" src="images/redhand.png" alt="" class="hand3">
+    <a id="link" href="f1.html">  <h1>Freehand Project</h1></a>
+    <img id="hand1" src="images/redhand.png" alt="" class="hand2" >
+    <img id="hand2" src="images/bluehand.png" alt="" class="hand3">
+    <img id="hand3" src="images/redhand.png" alt="" class="hand2" >
+    <img id="hand4" src="images/bluehand.png" alt="" class="hand3">
+    <img id="hand5" src="images/redhand.png" alt="" class="hand2" >
+    <img id="hand6" src="images/bluehand.png" alt="" class="hand3">
+    <img id="hand7" src="images/redhand.png" alt="" class="hand3">
+
+
+      <!-- <div class="redhand" id="redhand"> -->
+
+        <!-- <img src="images/redhand.png" class="phoenix" width="25%" height="25%">
+        <img src="images/bluehand.png" class="phoenix" width="25%" height="25%"> -->
+
+    </div>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('img').hide()
+
+      $('#link').click(function () {
+        $('#hand1').show();
+
+        setTimeout(function () {
+          $('#hand2').show();
+
+          setTimeout(function () {
+            $('#hand3').show();
+
+            setTimeout(function () {
+              $('#hand4').show();
+
+              setTimeout(function () {
+                $('#hand5').show();
+
+                setTimeout(function () {
+                  $('#hand6').show();
+
+                  setTimeout(function () {
+                    $('#hand7').show();
+
+            setTimeout(function () {
+                  document.location.href = "f1.html";
+            }, 500);
+
+          }, 500);
+
+        }, 500);
+
+
+      });
+      // put javascript code here
+      $('#title').hide().fadeIn(2000);
+      $('#start').hide().slideDown(2000);
+      $('#second').hide().slideDown(2000);
+    });
+
+    </script>
+  </body>
+</html>

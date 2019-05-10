@@ -1,0 +1,51 @@
+body{
+  background-color: black;
+  margin: 0px;
+}
+h1{
+  text-align: center;
+  font-family: 'Schoolbell';
+  color: white;
+}
+h2{
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+
+}
+p{
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+a:link{
+  text-decoration: none;
+}
+.column1{
+  margin-top: 50px;
+  background-color: white;
+  width: 15%;
+  float: left;
+  height: 105vh;
+  margin-right: 5%;
+  margin-left: 18%;
+}
+.column2{
+  background-color: white;
+  width: 15%;
+  float: left;
+  height: 105vh;
+  margin-top: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.column3{
+  margin-top: 50px;
+  background-color: white;
+  width: 15%;
+  float: left;
+  height: 105vh;
+  margin-right: 5%;
+  margin-left: 5%;
+}

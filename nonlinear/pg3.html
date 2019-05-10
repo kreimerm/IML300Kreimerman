@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Permanent+Marker|Righteous|Shrikhand|Special+Elite|Srisakdi" rel="stylesheet">
+    <title>Page 3</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="pg3.css">
+  </head>
+  <body>
+
+<div class="first" id="the">
+  <h1>Dinner has been served. You're about to take a drink when you hear the loud thud from a body fall to the ground.
+    You see that it is Marina Presley. What do you do?</h1>
+</div>
+
+<div class="opt1" id="first">
+<a href="pg7.html"> <h2>Finish your drink. You barely even knew her anyways</h2></a>
+</div>
+
+
+<div class="opt2" id="second">
+<a href="pg4.html"> <h2>Check the body</h2></a>
+</div>
+
+<div class="lowernumber" id="third">
+  <a href="page1.html"><h3>3</h3>
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+  // put javascript code here
+  $('#the').hide().fadeIn(1500);
+  $('#first').hide().slideDown(2000);
+  $('#second').hide().slideDown(2000);
+  $('#third').hide().slideDown(2000);
+});
+
+</script>
+
+
+  </body>
+</html>

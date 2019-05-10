@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Permanent+Marker|Righteous|Shrikhand|Special+Elite|Srisakdi" rel="stylesheet">
+    <title>Page 6</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="pg3.css">
+  </head>
+  <body>
+
+<div class="first" id="prompt">
+  <h1>You check your phone and there's no service. Some of the guests head to the nearest police station, but you stay behind.
+  You keep looking over at Marina's hand. The curiosity is killing you. </h1>
+</div>
+
+<div class="opt1" id="opt1">
+<a href="pg5.html"> <h2>Read the note!</h2></a>
+</div>
+
+
+<div class="lowernumber"id="opt2">
+  <a href="page1.html"><h3>6</h3>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+  // put javascript code here
+  $('#prompt').hide().fadeIn(1500);
+  $('#opt1').hide().slideDown(2000);
+  $('#opt2').hide().slideDown(2000);
+  $('#number').hide().slideDown(2000);
+});
+
+</script>
+
+  </body>
+</html>

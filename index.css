@@ -1,0 +1,80 @@
+.one{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: orange;
+}
+a {
+    color: hotpink;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%, -50%) }
+}
+.one{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  margin-top: 20%;
+}
+.two{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.three{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.weeklyone{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.weeklytwo{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.weeklythree{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.weeklyfour{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.weeklyfive{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.weeklysix{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.weeklyseven{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.weeklyeight{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+.weeklynine{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}

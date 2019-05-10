@@ -1,0 +1,36 @@
+body{
+background-color: black;
+}
+h1{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  margin: auto;
+  margin-top: 10%;
+  position: center;
+  text-align: center;
+  background-color: black;
+}
+h2{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  margin: auto;
+  margin-top: 10%;
+  position: center;
+  text-align: center;
+}
+h3{
+  color: white;
+  font-family: 'Special Elite', cursive;
+  margin: auto;
+  margin-top: 10%;
+  position: center;
+  width: 25%;
+  text-align: center;
+}
+.first{
+  background-color: black;
+  height: 50%;
+  width: 80%;
+  margin: auto;
+  margin-top: 115px;
+}

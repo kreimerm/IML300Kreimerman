@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Permanent+Marker|Righteous|Shrikhand|Special+Elite|Srisakdi" rel="stylesheet">
+    <title>pg9</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="pg3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+
+<div class="first" id="prompt">
+  <h1>You blame the server instead and that takes some of the attention off you.
+  You look over at Marina and notice that her hand is clenched with something inside.</h1>
+</div>
+
+<div class="opt1" id="opt1">
+<a href="pg5.html"> <h2>Go check what's inside.</h2></a>
+</div>
+
+
+<div class="opt2" id="opt2">
+<a href="pg8.html"> <h2>Keep drinking your wine.</h2></a>
+</div>
+
+<div class="lowernumber" id="number">
+  <a href="page1.html"><h3>9</h3>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+  // put javascript code here
+  $('#prompt').hide().fadeIn(1500);
+  $('#opt1').hide().slideDown(2000);
+  $('#opt2').hide().slideDown(2000);
+  $('#number').hide().slideDown(2000);
+});
+
+</script>
+
+  </body>
+</html>
