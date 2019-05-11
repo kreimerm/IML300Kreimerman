@@ -1,0 +1,69 @@
+body{
+  background-color: black;
+  margin: 0px;
+}
+h2, h3, h4, h5{
+  text-align: center;
+  color: white;
+  font-family: 'Schoolbell';
+}
+h1{
+  text-align: center;
+  font-family: 'Schoolbell';
+  color: white;
+}
+a:link{
+  text-decoration: none;
+}
+.column1{
+  background-color: black;
+  width: 23%;
+  float: left;
+  height: 80vh;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.column2{
+  background-color: black;
+  width: 23%;
+  float: left;
+  height: 80vh;
+  margin-right: 10px;
+  margin-left: 15%;
+}
+.column3{
+  background-color: black;
+  width: 23%;
+  float: left;
+  height: 80vh;
+  margin-right: 10px;
+  margin-left: 12%;
+}
+.printing{
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.delivery{
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.consultation{
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.assembly{
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}

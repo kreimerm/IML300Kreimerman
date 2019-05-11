@@ -1,0 +1,80 @@
+body{
+  background-color: black;
+  margin: 0px;
+}
+video {
+  max-width: 100%;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Schoolbell';
+}
+a:link{
+  text-decoration: none;
+}
+.column1{
+  margin-top: 50px;
+  background-color: black;
+  width: 25%;
+  float: left;
+  height: 80vh;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.column2{
+  background-color: black;
+  width: 25%;
+  float: left;
+  height: 80vh;
+  margin-top: 50px;
+  margin-left: 40px;
+  /* margin: auto;
+  margin-left: 5%; */
+}
+.column3{
+  margin-top: 50px;
+  background-color: black;
+  width: 25%;
+  float: left;
+  height: 80vh;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.title{
+  background-color: black;
+}
+
+
+
+
+
+
+
+/* .column1{
+  margin-top: 50px;
+  background-color: white;
+  width: 15%;
+  float: left;
+  height: 120vh;
+  margin-right: 5%;
+  margin-left: 18%;
+}
+.column2{
+  background-color: white;
+  width: 15%;
+  float: left;
+  height: 120vh;
+  margin-top: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.column3{
+  margin-top: 50px;
+  background-color: white;
+  width: 15%;
+  float: left;
+  height: 120vh;
+  margin-right: 5%;
+  margin-left: 5%;
+} */
